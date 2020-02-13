@@ -26,7 +26,7 @@
   "scripts": {
     "lint:template": "cd template && npm run tsc",
     "semantic-release": "semantic-release",
-    "test": "cd template && npm ci && npm run tsc && npm run build"
+    "test": "cd template && npm ci && npm run tsc && cp .env.example .env && npm run build && npm run storybook:build"
   },
   "husky": {
     "hooks": {

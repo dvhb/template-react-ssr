@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Layout from '../components/Layout';
 import { NextPage } from 'next';
 
+import { Button } from '../ui';
+
 const IndexPage: NextPage = () => {
   return (
     <Layout title="Home | Next.js + TypeScript Example">
@@ -11,6 +13,7 @@ const IndexPage: NextPage = () => {
         <Link href="/about">
           <a>About</a>
         </Link>
+        <Button>button</Button>
       </p>
     </Layout>
   );

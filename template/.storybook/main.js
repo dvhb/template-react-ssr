@@ -1,16 +1,4 @@
 module.exports = {
-  stories: ['../**/*.stories.tsx'],
-  addons: ['@storybook/addon-actions', '@storybook/addon-links'],
-  webpackFinal: config => {
-    config.module.rules.push({
-      test: /\.(ts|tsx)$/,
-      loader: require.resolve('babel-loader'),
-      options: {
-        presets: [require.resolve('babel-preset-react-app')],
-      },
-    });
-
-    config.resolve.extensions.push('.ts', '.tsx');
-    return config;
-  },
+  stories: ['../src/**/*.stories.tsx'],
+  addons: ['@storybook/preset-create-react-app', '@storybook/addon-actions', '@storybook/addon-links'],
 };
