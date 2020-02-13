@@ -1,3 +1,11 @@
+# [1.0.0-beta.2](https://github.com/dvhb/template-react-ssr/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2020-02-13)
+
+
+### Bug Fixes
+
+* revert package-lock.json ([4a597f3](https://github.com/dvhb/template-react-ssr/commit/4a597f3a3848c3efbc10c9985b951b4f6dee3bf2))
+* set up storybook and tslint ([a17b78f](https://github.com/dvhb/template-react-ssr/commit/a17b78f618556f299a451885fb8951e4b97c2290))
+
 # 1.0.0-beta.1 (2020-02-13)
 
 
