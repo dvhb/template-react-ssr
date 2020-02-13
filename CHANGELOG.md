@@ -1,3 +1,10 @@
+# [1.0.0-beta.3](https://github.com/dvhb/template-react-ssr/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-02-13)
+
+
+### Features
+
+* set up sass with css modules ([27c33e3](https://github.com/dvhb/template-react-ssr/commit/27c33e343c2753ce1f641815949d948379fb4518))
+
 # [1.0.0-beta.2](https://github.com/dvhb/template-react-ssr/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2020-02-13)
 
 
