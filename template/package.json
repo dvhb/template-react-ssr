@@ -1,0 +1,39 @@
+{
+  "name": "dvhb-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "lint": "tslint -p tsconfig.json -c tslint.json -t verbose",
+    "start": "next start",
+    "storybook": "start-storybook -p 9009 -s public",
+    "storybook:build": "build-storybook -o public/storybook",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "classnames": "^2.2.6",
+    "dotenv": "^8.2.0",
+    "isomorphic-unfetch": "3.0.0",
+    "next": "latest",
+    "node-sass": "^4.13.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@dvhb/tslint-config-react": "^1.0.9",
+    "@storybook/addon-actions": "^5.3.12",
+    "@storybook/addon-links": "^5.3.12",
+    "@storybook/addons": "^5.3.12",
+    "@storybook/preset-create-react-app": "^1.5.2",
+    "@storybook/react": "^5.3.12",
+    "@types/classnames": "^2.2.9",
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.4",
+    "babel-preset-react-app": "^9.1.1",
+    "react-scripts": "^3.3.1",
+    "typescript": "3.7.3"
+  }
+}

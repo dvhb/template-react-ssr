@@ -24,7 +24,9 @@
     "template.json"
   ],
   "scripts": {
-    "semantic-release": "semantic-release"
+    "lint:template": "cd template && npm run tsc",
+    "semantic-release": "semantic-release",
+    "test": "cd template && npm ci && npm run tsc && cp .env.example .env && npm run build && npm run storybook:build"
   },
   "husky": {
     "hooks": {
@@ -54,7 +56,6 @@
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
       "@semantic-release/github",
-      "@semantic-release/npm",
       "@semantic-release/git"
     ]
   }
