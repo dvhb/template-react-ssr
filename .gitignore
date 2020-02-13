@@ -11,3 +11,5 @@ npm-debug.log
 
 template/.env
 template/build
+template/package-lock.json
+template/public/storybook

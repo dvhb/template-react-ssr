@@ -1,0 +1,6 @@
+{
+  "extends": ["@dvhb/tslint-config-react"],
+  "rules": {
+    "no-default-export": false
+  }
+}
