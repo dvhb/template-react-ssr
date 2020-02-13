@@ -6,6 +6,9 @@ For example:
 npx create-dvhb-app my-app --template react-ssr
 
 # or
+npm init dvhb-app my-app --template react-ssr
+
+# or
 
 yarn create dvhb-app my-app --template react-ssr
 ```

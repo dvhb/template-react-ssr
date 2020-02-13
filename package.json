@@ -24,7 +24,9 @@
     "template.json"
   ],
   "scripts": {
-    "semantic-release": "semantic-release"
+    "lint:template": "cd template && npm run tsc",
+    "semantic-release": "semantic-release",
+    "test": "cd template && npm ci && npm run tsc && npm run build"
   },
   "husky": {
     "hooks": {
