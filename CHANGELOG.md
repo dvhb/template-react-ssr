@@ -1,3 +1,10 @@
+# [1.0.0-beta.4](https://github.com/dvhb/template-react-ssr/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-02-14)
+
+
+### Features
+
+* commitlint and lint-staged ([98c22d7](https://github.com/dvhb/template-react-ssr/commit/98c22d70cd690a1885141d9b58464cddbf5569e3))
+
 # [1.0.0-beta.3](https://github.com/dvhb/template-react-ssr/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-02-13)
 
 
