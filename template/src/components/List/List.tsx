@@ -1,12 +1,13 @@
 import * as React from 'react';
-import ListItem from './ListItem';
-import { User } from '../interfaces';
+import { ListItem } from './ListItem';
+
+import { User } from '../../models';
 
 type Props = {
   items: User[];
 };
 
-const List: React.FunctionComponent<Props> = ({ items }) => (
+export const List: React.FunctionComponent<Props> = ({ items }) => (
   <ul>
     {items.map(item => (
       <li key={item.id}>
@@ -15,5 +16,3 @@ const List: React.FunctionComponent<Props> = ({ items }) => (
     ))}
   </ul>
 );
-
-export default List;

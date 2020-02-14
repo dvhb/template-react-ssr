@@ -1,8 +1,8 @@
 import * as React from 'react';
 import Link from 'next/link';
-import Layout from '../components/Layout';
 import { NextPage } from 'next';
 
+import { Layout } from '../components';
 import { Button } from '../ui';
 
 const IndexPage: NextPage = () => {
