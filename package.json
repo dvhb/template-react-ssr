@@ -24,13 +24,13 @@
     "template.json"
   ],
   "scripts": {
-    "lint:template": "cd template && npm run tsc",
+    "lint:template": "cd template && npm run tsc && npm run lint",
     "semantic-release": "semantic-release",
     "test": "cd template && npm ci && npm run tsc && cp .env.example .env && npm run build && npm run storybook:build"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "lint-staged && npm run lint:template",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
