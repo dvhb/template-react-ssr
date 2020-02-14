@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, { CSSProperties, ReactNode } from 'react';
 import cn from 'classnames';
 
 import styles from './styles.module.scss';
@@ -10,12 +10,14 @@ type Props = {
   block?: boolean;
   disabled?: boolean;
   className?: string;
+  style?: CSSProperties;
 };
 
-export function Button({ children, size, variant, block, className, ...props }: Props) {
+export function Button({ children, size, variant, block, className, style }: Props) {
   return (
     <button
       type="button"
+      style={style}
       className={cn(
         styles.button,
         variant && styles[`button_${variant}`],
@@ -23,7 +25,6 @@ export function Button({ children, size, variant, block, className, ...props }: 
         block && styles.buttonBlock,
         className && className,
       )}
-      {...props}
     >
       {children}
     </button>

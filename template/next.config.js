@@ -7,4 +7,17 @@ module.exports = withSass({
     // TEST_VAR: process.env.TEST_VAR,
   },
   cssModules: true,
+  webpack(config) {
+    const babelLoader = config.module.rules[0].use;
+    config.module.rules[0].use = [
+      babelLoader,
+      {
+        loader: 'linaria/loader',
+        options: {
+          sourceMap: process.env.NODE_ENV !== 'production',
+        },
+      },
+    ];
+    return config;
+  },
 });
