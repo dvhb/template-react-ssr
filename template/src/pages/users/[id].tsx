@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import { NextPageContext } from 'next';
 
 import { User } from '../../models';

@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { ListItem } from './ListItem';
+import React from 'react';
 
+import { ListItem } from './ListItem';
 import { User } from '../../models';
 
 type Props = {
