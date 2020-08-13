@@ -9,6 +9,8 @@
     "start": "next start",
     "storybook": "start-storybook -p 9009 -s public",
     "storybook:build": "build-storybook -o public/storybook",
+    "test:cypress:open": "node tools/cypress/cypress-open.js",
+    "test:cypress:ci": "node tools/cypress/cypress-ci.js",
     "tsc": "tsc"
   },
   "husky": {

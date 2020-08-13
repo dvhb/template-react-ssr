@@ -9,5 +9,7 @@ declare namespace Cypress {
      * @example cy.dataCy('greeting')
      */
     dataCy: (testId: string) => Chainable<Element>;
+    state: (selector: string) => any;
+    visitSsrPage: (url: string) => void;
   }
 }
