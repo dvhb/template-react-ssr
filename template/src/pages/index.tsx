@@ -8,10 +8,10 @@ import { Button } from '../ui';
 const IndexPage: NextPage = () => {
   return (
     <Layout title="Home | Next.js + TypeScript Example">
-      <h1>Hello Next.js 👋</h1>
+      <h1 data-cy="greetings">Hello Next.js 👋</h1>
       <p>
         <Link href="/about">
-          <a>About</a>
+          <a data-cy="about-link">About</a>
         </Link>
         <Button>button</Button>
       </p>

@@ -16,15 +16,15 @@ export const Layout: React.FunctionComponent<Props> = ({ children, title = 'This
     <header>
       <nav>
         <Link href="/">
-          <a>Home</a>
+          <a data-cy="header-home-link">Home</a>
         </Link>{' '}
         |{' '}
         <Link href="/about">
-          <a>About</a>
+          <a data-cy="header-about-link">About</a>
         </Link>{' '}
         |{' '}
         <Link href="/users">
-          <a>Users List</a>
+          <a data-cy="header-users-link">Users List</a>
         </Link>
       </nav>
     </header>

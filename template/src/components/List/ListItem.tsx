@@ -9,7 +9,7 @@ type Props = {
 
 export const ListItem: React.FunctionComponent<Props> = ({ data }) => (
   <Link href="/users/[id]" as={`/users/${data.id}`}>
-    <a>
+    <a data-cy="list-item">
       {data.id}: {data.name}
     </a>
   </Link>
