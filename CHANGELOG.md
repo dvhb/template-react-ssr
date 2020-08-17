@@ -1,3 +1,11 @@
+# [1.0.0-beta.5](https://github.com/dvhb/template-react-ssr/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2020-08-17)
+
+
+### Features
+
+* add cypress ([8211bb0](https://github.com/dvhb/template-react-ssr/commit/8211bb0f8c204e13b7460c50c9e2c430df29bb4a))
+* add tests for ssr page ([fd4859b](https://github.com/dvhb/template-react-ssr/commit/fd4859b3e68d9c126f1ddb94855cd365b47974cd))
+
 # [1.0.0-beta.4](https://github.com/dvhb/template-react-ssr/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-02-14)
 
 
